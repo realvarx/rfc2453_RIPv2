@@ -1,7 +1,4 @@
-******************************************
-*	            RIPv2 Daemon	             *
-*		                      	             *
-******************************************
+-RIPv2 Daemon
 
 Librawnet library is required for the correct functioning of the program.
 
