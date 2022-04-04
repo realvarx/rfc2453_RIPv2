@@ -1,0 +1,12 @@
+/.config/
+/.vscode/
+.bash_history
+arp.h.gch
+arpclient
+arp_client.o
+ipv4_client
+ipv4_server
+ripv2_client
+ripv2_server
+udp_client
+udp_server

@@ -1,0 +1,18 @@
+******************************************
+*	GRUPO 8 - DEMONIO RIPv2		 *
+*		RYSCA 2020		 *
+******************************************
+
+
+/COMPILAR CLIENTE/
+rawnetcc ripv2_client eth.c arp.c ipv4.c ipv4_config.c ipv4_route_table.c ripv2_route_table.c udp.c ripv2_client.c
+
+/CORRER CLIENTE/
+./ripv2_client
+
+
+/COMPILAR SERVIDOR/
+rawnetcc ripv2_server eth.c arp.c ipv4.c ipv4_config.c ipv4_route_table.c ripv2_route_table.c udp.c ripv2_server.c
+
+/CORRER SERVIDOR/
+./ripv2_server [host]
